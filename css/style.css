@@ -1,0 +1,42 @@
+:root {
+    --dark-blue: #222222;
+}
+
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+} 
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    min-height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__link {
+    margin: 0 0 0 34px;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
