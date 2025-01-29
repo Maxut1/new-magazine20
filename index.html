@@ -39,25 +39,25 @@
                                 <li class="navigation-item__sub-item"><a href="#">T-Shirts</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">WOMAN</a>
-                            <ul>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Jackets & Coats</a></li>
-                                <li><a href="#">Polos</a></li>
-                                <li><a href="#">T-Shirts</a></li>
-                                <li><a href="#">Shirts</a></li>
+                        <li class="navigation-item-2">
+                            <a class="navigation-item-link-woman" href="#">WOMAN</a>
+                            <ul class="navigation-item__sub-list-2">
+                                <li class="navigation-item__sub-item-2"><a href="#">Accessories</a></li>
+                                <li class="navigation-item__sub-item-2"><a href="#">Jackets & Coats</a></li>
+                                <li class="navigation-item__sub-item-2"><a href="#">Polos</a></li>
+                                <li class="navigation-item__sub-item-2"><a href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sub-item-2"><a href="#">Shirts</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">KIDS</a>
-                            <ul>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Jackets & Coats</a></li>
-                                <li><a href="#">Polos</a></li>
-                                <li><a href="#">T-Shirts</a></li>
-                                <li><a href="#">Shirts</a></li>
-                                <li><a href="#">Bags</a></li>
+                        <li class="navigation-item-3">
+                            <a class="navigation-item-link-kids" href="#">KIDS</a>
+                            <ul class="navigation-item__sub-list-3">
+                                <li class="navigation-item__sub-item-3"><a href="#">Accessories</a></li>
+                                <li class="navigation-item__sub-item-3"><a href="#">Jackets & Coats</a></li>
+                                <li class="navigation-item__sub-item-3"><a href="#">Polos</a></li>
+                                <li class="navigation-item__sub-item-3"><a href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sub-item-3"><a href="#">Shirts</a></li>
+                                <li class="navigation-item__sub-item-3"><a href="#">Bags</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -66,97 +66,103 @@
         </div>
     </header>
     <main>
-        <section>
-            <img src="img/man.jpg" alt="man" width="800" height="764">
-            <h1>THE BRAND OF LUXERIOUS FASHION</h1>
+        <section class="promo">
+            <img class="promo__img" src="img/man.jpg" alt="man" width="800" height="764">
+            <div class="promo__heading-wrapper">
+                <h1 class="promo__heading">THE BRAND <span class="promo__sub-heading"> OF LUXERIOUS <span class="promo__sub-heading-pink">FASHION</span></span> </h1>
+            </div>
         </section>
-        <section>
-            <h2>category</h2>
-            <ul>
-                <li>
-                    <p>30% OFF</p>
-                    <h3>FOR WOMEN</h3>
+        <section class="categorires container">
+            <h2 class="visually-hidden">category</h2>
+            <ul class="categorires__list">
+                <li class="categorires__item categorires__item--woman">
+                    <p class="categorires__text">30% OFF</p>
+                    <h3 class="categorires__heading">FOR WOMEN</h3>
                 </li>
-                <li>
-                    <p>HOT DEAL</p>
-                    <h3>FOR MEN</h3>
+                <li class="categorires__item categorires__item--man">
+                    <p class="categorires__text">HOT DEAL</p>
+                    <h3 class="categorires__heading">FOR MEN</h3>
                 </li>
-                <li>
-                    <p>NEW ARRIVALS</p>
-                    <h3>FOR KIDS</h3>
+                <li class="categorires__item categorires__item--kids">
+                    <p class="categorires__text">NEW ARRIVALS</p>
+                    <h3 class="categorires__heading">FOR KIDS</h3>
                 </li>
-                <li>
-                    <p>LUXIROUS & TRENDY</p>
-                    <h3>ACCESORIES</h3>
+                <li class="categorires__item categorires__item--accesories">
+                    <p class="categorires__text">LUXIROUS & TRENDY</p>
+                    <h3 class="categorires__heading">ACCESORIES</h3>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Fetured Items</h2>
-            <p>Shop for items based on what we featured in this week</p>
-            <ul>
-                <li>
-                    <img src="img/product-1.jpg" alt="product-1" width="360" height="420">
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
-                    <button type="button">Add to Cart</button>
+        <section class="product container">
+            <div class="product__heading-wrapper">
+                <h2 class="product__heading">Fetured Items</h2>
+                <p class="product__text">Shop for items based on what we featured in this week</p>
+            </div>
+            <ul class="product__list">
+                <li class="product__item">
+                    <img class="product__item-img" src="img/product-1.jpg" alt="product-1" width="360" height="420">
+                    <h3 class="product__item-heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="product__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="product__item-price">$52.00</p>
+                    <button class="product__item-button" type="button">Add to Cart</button>
                 </li>
-                <li>
-                    <img src="img/product-2.jpg" alt=""  width="360" height="420">
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
-                    <button type="button">Add to Cart</button>
+                <li class="product__item">
+                    <img class="product__item-img"  src="img/product-2.jpg" alt=""  width="360" height="420">
+                    <h3 class="product__item-heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="product__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="product__item-price">$52.00</p>
+                    <button class="product__item-button" type="button">Add to Cart</button>
                 </li>
-                <li>
-                    <img src="img/product-3.jpg" alt=""  width="360" height="420">
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
-                    <button type="button">Add to Cart</button>
+                <li class="product__item">
+                    <img class="product__item-img" src="img/product-3.jpg" alt=""  width="360" height="420">
+                    <h3 class="product__item-heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="product__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="product__item-price">$52.00</p>
+                    <button class="product__item-button" type="button">Add to Cart</button>
                 </li>
-                <li>
-                    <img src="img/product-4.jpg" alt=""  width="360" height="420">
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
-                    <button type="button">Add to Cart</button>
+                <li class="product__item">
+                    <img class="product__item-img" src="img/product-4.jpg" alt=""  width="360" height="420">
+                    <h3 class="product__item-heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="product__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="product__item-price">$52.00</p>
+                    <button class="product__item-button" type="button">Add to Cart</button>
                 </li>
-                <li>
-                    <img src="img/product-5.jpg" alt=""  width="360" height="420">
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
-                    <button type="button">Add to Cart</button>
+                <li class="product__item">
+                    <img class="product__item-img" src="img/product-5.jpg" alt=""  width="360" height="420">
+                    <h3 class="product__item-heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="product__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="product__item-price">$52.00</p>
+                    <button  class="product__item-button"type="button">Add to Cart</button>
                 </li>
-                <li>
-                    <img src="img/product-6.jpg" alt=""  width="360" height="420">
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p>$52.00</p>
-                    <button type="button">Add to Cart</button>
+                <li class="product__item">
+                    <img class="product__item-img" src="img/product-6.jpg" alt=""  width="360" height="420">
+                    <h3 class="product__item-heading">ELLERY X M'O CAPSULE</h3>
+                    <p class="product__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="product__item-price">$52.00</p>
+                    <button class="product__item-button" type="button">Add to Cart</button>
                 </li>
             </ul>
-            <button type="button">Browse All Product</button>
+            <div class="product__button-browse-wrapper">
+                <button class="product__button-browse" type="button">Browse All Product</button>
+            </div>
         </section>
-        <section>
-            <h2>dignity</h2>
-            <ul>
-                <li>
+        <section class="information ">
+            <h2 class="visually-hidden">dignity</h2>
+            <ul class="information__list container">
+                <li class="information__item">
                     <img src="img/dignty-icon-1.svg" alt="" width="46" height="32">
-                    <h3>Free Delivery</h3>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    <h3 class="information__item-heading">Free Delivery</h3>
+                    <p class="information__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 </li>
-                <li>
+                <li class="information__item">
                     <img src="img/dignty-icon-2.svg" alt="" width="40" height="40">
-                    <h3>Sales & discounts</h3>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    <h3 class="information__item-heading">Sales & discounts</h3>
+                    <p class="information__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 </li>
-                <li>
+                <li class="information__item">
                     <img src="img/dignty-icon-3.svg" alt="" width="48" height="35">
-                    <h3>Quality assurance</h3>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    <h3 class="information__item-heading">Quality assurance</h3>
+                    <p class="information__item-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 </li>
             </ul>
         </section>
