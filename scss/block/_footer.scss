@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    background-color: $dark-blue;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 79px;
+    align-items: center;
+}
+
+.footer__link {
+    margin: 0 0 0 7px;
+}
+
+.footer__link:hover {
+    background-color: $dark-pink;
+}
+
+.footer__header {
+    color: $footer-text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;    
+}

@@ -1,0 +1,37 @@
+.promo {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.promo__heading-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: $pink;
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+}
+
+.promo__heading-cub {
+    background-color: $dark-pink;
+    width: 12px;
+    height: 92px;
+    margin: 0 16px 0 0;
+}
+
+.promo__heading {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+}
+
+.promo__sub-heading {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;   
+    display: block;
+}
+
+.promo__sub-heading-pink {
+    color: $dark-pink;
+}

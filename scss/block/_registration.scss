@@ -1,0 +1,113 @@
+.registration__header {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 64px 0 20px 0;
+}
+
+.registration__header-2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 33px 0 20px 0;
+}
+
+.registration__input {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 45px;
+    margin: 0 0 20px 0;
+}
+
+.registration__radio-none {
+    display: none;
+}
+
+.registration__form-wrapp {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.registration__form__text {
+    margin-right: 10px;
+}
+
+.registration__input-radio {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+
+.registration__form {
+    display: flex;
+    align-items: center;
+    
+}
+
+.registration__input::placeholder {
+    color: $placholder-text;
+    padding: 0 0 0 22px;
+    opacity: 67%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.registration__text {
+    color: $registr__text;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px; 
+    width: 359px;
+    height: 32px;
+    margin: 15px 0 39px 0;
+}
+
+.registration__button {
+    width: 167px;
+    height: 50px;
+    background-color: $dark-pink;
+    color: $white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 96px;
+}
+
+.registration__header-promo {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+
+.registration__text-promo {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 652px;
+    height: 58px;
+    margin-bottom: 21px;
+}
+
+.registration__list {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.registration-wrapper-2 {
+    margin-top: 64px;
+}

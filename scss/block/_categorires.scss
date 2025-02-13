@@ -1,0 +1,51 @@
+.categorires__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categorires__item {
+    width: 360px;
+    height: 260px;
+}
+
+.categorires__item--woman {
+    background-image: url(../img/catigor-1.jpg);
+}
+
+.categorires__item--man {
+    background-image: url(../img/categor-2.jpg);
+}
+
+.categorires__item--kids {
+    background-image: url(../img/catigor-3.jpg);
+}
+
+.categorires__item--accesories {
+    margin: 25px 0 96px 0;
+    background-image: url(../img/catigor-4.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 180px;
+}
+
+.categorires__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorires__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white;
+}
+
+.categorires__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: $dark-pink;
+}
